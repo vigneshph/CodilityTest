@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation for Codility" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T00:09:47" hostname="Vigneshs-MacBook-Pro.local" time="44.274">
+  <properties/>
+  <testcase name="To Test the following acceptance criteria for Codility" classname="Automation for Codility" time="44.274"/>
+  <system-out><![CDATA[
+Scenario: To Test the following acceptance criteria for Codility # Features/TestFeature.feature:6
+  Given I launch the URL                                         # com.automation.stepDefinitions.AutomationSteps.i_launch_the_url()
+  Given I add four random items to my cart                       # com.automation.stepDefinitions.AutomationSteps.i_add_four_random_items_to_my_cart()
+  When I view my cart                                            # com.automation.stepDefinitions.AutomationSteps.i_view_my_cart()
+  Then I find total four items listed in my cart                 # com.automation.stepDefinitions.AutomationSteps.findCartListing()
+  When I search for lowest price item                            # com.automation.stepDefinitions.AutomationSteps.searchLowestPriceItem()
+  And I am able to remove the lowest price item from my cart     # com.automation.stepDefinitions.AutomationSteps.removeLowestPriceItem()
+  Then I am able to verify three items in my cart                # com.automation.stepDefinitions.AutomationSteps.verifyItemsInCart()
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 59034
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 31, 2022 1:09:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 31, 2022 1:09:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+</testsuite>
